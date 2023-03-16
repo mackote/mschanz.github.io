@@ -1,0 +1,80 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Mi CV Online</title>
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav>
+      <ul>
+        <li><a href="#perfil">Perfil</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+      </ul>
+    </nav>
+    
+    <!-- Sección de perfil -->
+    <section id="perfil">
+      <div class="container">
+        <h1>Curriculum Vitae</h1>
+          <h2>Dan Brooks</h2>
+        <img src="https://randomuser.me/api/portraits/men/27.jpg" alt="Foto de perfil">
+        <ul>
+          <li><strong>Edad:</strong> 25 años</li>
+          <li><strong>Correo electrónico:</strong> correo@electronico.com</li>
+          <li><strong>País:</strong> Argentina</li>
+        </ul>
+        <h2>Datos Personales</h2>
+        <p>Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de "de Finnibus Bonorum et Malorum" (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado de teoría de éticas, muy popular durante el Renacimiento. La primera linea del Lorem Ipsum, "Lorem ipsum dolor sit amet..", viene de una linea en la sección 1.10.32</p>
+      </div>
+    </section>
+    
+    <!-- Sección de experiencia -->
+    <section id="experiencia">
+      <div  class="container">
+        <h2>Experiencia laboral <a id="btnExpandExperiencia" href="javascript:expandirExperiencia()">+</a></h2>
+        <div id="pnExperienciaContenido" style="display:none;" >
+			<ul>
+			  <li>
+				<h3>Empresa 1</h3>
+				<p>Mantenimimento de redes y seguridad</p>
+				<p>Desempeñando esa funcion desde el 2018 al 2020</p>
+			  </li>
+			  <li>
+				<h3>Empresa 2</h3>
+				<p>Soporte tecnico a usuarios y mantenimiento de base de datos</p>
+				<p>Actualmente en este puesto desde el año 2020</p>
+			  </li>
+			</ul>
+		</div>
+      </div>
+    </section>
+    
+    <!-- Sección de habilidades -->
+    <section id="habilidades">
+      <div class="container">
+        <h2>Habilidades <a id="btnExpandHabilidades" href="javascript:expandirHabilidades()">+</a></h2>
+        <div id="pnHabilidadesContenido" style="display:none;" >
+			<ul>
+        <li>Conocimiento sobre redes, cableados estructurados</li>
+        <li>Administracion de Base de datos</li>
+			  <li>HTML</li>
+			  <li>CSS</li>
+			  <li>JavaScript</li>
+			  <li>Bootstrap</li>
+			  <li>Git</li>
+			</ul>
+		</div>
+      </div>
+    </section>
+    
+    <!-- Scripts -->
+    <script src="app.js"></script>
+  </body>
+</html>

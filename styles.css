@@ -1,0 +1,132 @@
+/* Estilos generales */
+
+html {
+    font-size: 16px; /* tamaño de fuente base */
+    scroll-behavior: smooth; /* desplazamiento suave al hacer clic en anclas */
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif; /* fuente principal */
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 800px; /* ancho máximo del contenido */
+    margin: 0 auto; /* centrar el contenido en la página */
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    list-style: none; /* quitar los puntos de las listas */
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #0077c2; /* color de enlace */
+    text-decoration: none; /* quitar subrayado de los enlaces */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* subrayar enlace al pasar el cursor sobre él */
+  }
+  
+  /* Estilos específicos para la sección de habilidades */
+  
+  .skills {
+    display: flex; /* mostrar los elementos en línea */
+    flex-wrap: wrap; /* permitir que los elementos se muevan a una nueva línea si no hay suficiente espacio */
+  }
+  
+  .skill {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+  
+  /* Estilos específicos para la sección de experiencia */
+  
+  .experience {
+    display: flex; /* mostrar los elementos en línea */
+    flex-wrap: wrap; /* permitir que los elementos se muevan a una nueva línea si no hay suficiente espacio */
+  }
+  
+  .job {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .job h3 {
+    display: flex; /* mostrar los elementos en línea */
+    justify-content: space-between; /* alinear el segundo elemento a la derecha */
+  }
+  
+  .job h3 button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .job h3 button:hover {
+    text-decoration: underline;
+  }
+  
+  .job p {
+    margin: 0;
+  }
+  
+  .job .info {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .job .info.hidden {
+    display: none;
+  }
+  
+  /* Estilos para la barra de navegación */
+  
+  nav {
+    background-color: #0077c2;
+    color: white;
+    display: flex; /* mostrar los elementos en línea */
+    justify-content: space-between; /* alinear los elementos a los extremos */
+    padding: 10px 20px;
+    position: fixed; /* fijar la barra de navegación en la parte superior de la pantalla */
+    top: 0;
+    width: 100%;
+    z-index: 1; /* asegurarse de que la barra de navegación esté en la parte superior de otros elementos */
+  }
+  
+  nav ul {
+    display: flex; /* mostrar los elementos en línea */
+    justify-content: flex-end; /* alinear los elementos a la derecha */
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Estilos específicos para dispositivos
+  
